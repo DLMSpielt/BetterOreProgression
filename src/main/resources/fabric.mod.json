@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
-	"id": "better-ore-progression",
+	"id": "betteroreprogression",
 	"version": "${version}",
 	"name": "Better Ore Progression",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This Mod changes the Ore Progression System and Implements new additional Ores!",
 	"authors": [
-		"Me!"
+		"DLMSpielt"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://dlmspielt.net",
+		"sources": "https://github.com/DLMSpielt/BetterOreProgression"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/better-ore-progression/icon.png",
@@ -20,6 +20,10 @@
 		],
 		"fabric-datagen": [
 			"net.dlmspielt.betteroreprogression.BetterOreProgressionDataGenerator"
+		],
+
+			"client": [
+				"net.dlmspielt.betteroreprogression.BetterOreProgressionClient"
 		]
 	},
 	"mixins": [
