@@ -11,6 +11,5 @@ public class BetterOreProgression implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 	}
 }
