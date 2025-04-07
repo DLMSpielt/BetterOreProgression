@@ -24,8 +24,20 @@ public class ModItems {
 
         return item;
     }
-public static final Item ENDERITE_INGOT = register("enderide_ingot", Item :: new, new Item.Settings());
+
+    //Items Register
+public static final Item ENDERITE_INGOT = register("enderite_ingot", Item :: new, new Item.Settings().fireproof());
+    public static final Item ENDERITE_PIECE = register("enderite_piece", Item :: new, new Item.Settings().fireproof());
+    public static final Item ENDERITE_ORE = register("enderite_ore", Item :: new, new Item.Settings().fireproof());
+    public static final Item END_CRYSTAL = register("end_crystal", Item :: new, new Item.Settings().fireproof());
+
+
+
+
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.ENDERITE_INGOT));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.ENDERITE_PIECE));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.ENDERITE_ORE));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) -> itemGroup.add(ModItems.END_CRYSTAL));
     }
 }

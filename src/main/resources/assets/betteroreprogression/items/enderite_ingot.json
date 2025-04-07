@@ -1,8 +1,6 @@
 {
-
   "model": {
-    "type" : "minecraft:model",
+    "type": "minecraft:model",
     "model": "betteroreprogression:item/enderite_ingot"
   }
-
 }

@@ -12,7 +12,7 @@
 		"sources": "https://github.com/DLMSpielt/BetterOreProgression"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/better-ore-progression/icon.png",
+	"icon": "assets/betteroreprogression/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
