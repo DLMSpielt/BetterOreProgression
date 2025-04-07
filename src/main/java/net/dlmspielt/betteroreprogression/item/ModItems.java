@@ -20,8 +20,8 @@ public class ModItems {
     public static void registerModItems() {
         BetterOreProgression.LOGGER.info("Registering Mod Items for" + BetterOreProgression.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries ->{
-            fabricItemGroupEntries.add(ENDERITE_INGOT);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries ->{
+            entries.add(ENDERITE_INGOT);
                 });
     }
 }
