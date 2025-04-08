@@ -1,10 +1,12 @@
 package net.dlmspielt.betteroreprogression.item;
 
 import net.dlmspielt.betteroreprogression.BetterOreProgression;
+import net.dlmspielt.betteroreprogression.tags.item.ModItemTags;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.equipment.EquipmentType;
+import net.minecraft.item.equipment.trim.ArmorTrim;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -38,7 +40,7 @@ public static final Item ENDERITE_INGOT = register("enderite_ingot", Item :: new
     public static final Item COOPER_HELMET = register("cooper_helmet", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.HELMET));
     public static final Item COOPER_CHESTPLATE = register("cooper_chestplate", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.CHESTPLATE));
     public static final Item COOPER_LEGGINGS = register("cooper_leggings", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.LEGGINGS));
-    public static final Item COOPER_BOOTS = register("cooper_boots", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.BOOTS));
+    public static final Item COOPER_BOOTS = register("cooper_boots",Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.BOOTS));
 
     //Enderite Armor
     public static final Item ENDERITE_HELMET = register("enderite_helmet", Item::new, new Item.Settings().armor(ModArmorMaterials.ENDERITE, EquipmentType.HELMET).fireproof());
@@ -60,6 +62,5 @@ public static final Item ENDERITE_INGOT = register("enderite_ingot", Item :: new
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register((itemGroup) -> itemGroup.add(ModItems.ENDERITE_CHESTPLATE));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register((itemGroup) -> itemGroup.add(ModItems.ENDERITE_LEGGINGS));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register((itemGroup) -> itemGroup.add(ModItems.ENDERITE_BOOTS));
-
     }
 }

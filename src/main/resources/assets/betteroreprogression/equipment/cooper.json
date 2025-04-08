@@ -1,0 +1,23 @@
+{
+  "layers": {
+
+  "humanoid":
+  [
+    {"texture": "betteroreprogression:cooper",
+    "trimmable_armor": true
+    }
+  ],
+
+  "humanoid_leggings":   [
+    {"texture": "betteroreprogression:cooper",
+    "trimmable_armor": true
+    }
+  ]
+
+
+
+
+
+}
+
+}

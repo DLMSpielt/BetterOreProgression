@@ -16,8 +16,7 @@ import net.minecraft.item.Item;
 
 import java.util.Map;
 
-import static net.dlmspielt.betteroreprogression.tags.item.ModItemTags.REPAIRS_COOPER_ARMOR;
-import static net.dlmspielt.betteroreprogression.tags.item.ModItemTags.REPAIRS_ENDERITE_ARMOR;
+import static net.dlmspielt.betteroreprogression.tags.item.ModItemTags.*;
 
 public class ModArmorMaterials {
 

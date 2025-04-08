@@ -9,4 +9,6 @@ import net.minecraft.util.Identifier;
 public class ModItemTags {
     public static final TagKey<Item> REPAIRS_COOPER_ARMOR = TagKey.of(RegistryKeys.ITEM, Identifier.of(BetterOreProgression.MOD_ID, "repairs_cooper_armor"));
     public static final TagKey<Item> REPAIRS_ENDERITE_ARMOR = TagKey.of(RegistryKeys.ITEM, Identifier.of(BetterOreProgression.MOD_ID, "repairs_enderite_armor"));
+public static final TagKey<Item> TRIMMABLE_ARMOR = TagKey.of(RegistryKeys.ITEM, Identifier.of("minecarft", "trimmable_armor"));
 }
+

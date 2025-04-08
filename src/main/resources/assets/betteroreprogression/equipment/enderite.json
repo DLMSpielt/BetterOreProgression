@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "betteroreprogression:enderite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "betteroreprogression:enderite"
+      }
+    ]
+  }
+}
