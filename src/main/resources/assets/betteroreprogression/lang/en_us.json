@@ -1,28 +1,11 @@
 {
-  "item.betteroreprogression.enderite_ingot": "Enderite Ingot",
-  "item.betteroreprogression.enderite_piece": "Enderite Piece",
-  "item.betteroreprogression.enderite_ore": "Enderite Ore",
   "item.betteroreprogression.end_crystal": "Crystal of End",
+  "item.betteroreprogression.enderite_piece": "Piece of Enderite",
+  "item.betteroreprogression.enderite_ingot": "Enderite Ingot",
+  "item.betteroreprogression.raw_enderite": "Raw Enderite",
 
 
 
-
-  "item.betteroreprogression.enderite_helmet": "Enderite Helmet",
-  "item.betteroreprogression.enderite_chestplate": "Enderite Chestplate",
-  "item.betteroreprogression.enderite_leggings": "Enderite Leggings",
-  "item.betteroreprogression.enderite_boots": "Enderite Boots",
-
-
-
-
-  "item.betteroreprogression.cooper_helmet": "Copper Helmet",
-  "item.betteroreprogression.cooper_chestplate": "Copper Chestplate",
-  "item.betteroreprogression.cooper_leggings": "Copper Leggings",
-  "item.betteroreprogression.cooper_boots": "Copper Boots",
-
-  "item.betteroreprogression.enderite_ore_block": "Enderite Ore Block"
-
-
-
+  "block.betteroreprogression.enderite_ore": "Enderite Ore"
 
 }

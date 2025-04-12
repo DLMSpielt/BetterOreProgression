@@ -1,5 +1,7 @@
 package net.dlmspielt.betteroreprogression;
 
+import net.dlmspielt.betteroreprogression.block.ModBlocks;
+import net.dlmspielt.betteroreprogression.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,5 +17,7 @@ public class BetterOreProgression implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

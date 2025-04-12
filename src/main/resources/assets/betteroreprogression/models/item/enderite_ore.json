@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "betteroreprogression:item/enderite_ore"
-  }
+  "parent": "betteroreprogression:block/enderite_ore"
 }

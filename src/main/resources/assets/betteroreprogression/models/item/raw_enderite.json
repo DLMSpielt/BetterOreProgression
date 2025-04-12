@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "betteroreprogression:item/enderite_ingot"
+    "layer0": "betteroreprogression:item/raw_enderite"
   }
 
 

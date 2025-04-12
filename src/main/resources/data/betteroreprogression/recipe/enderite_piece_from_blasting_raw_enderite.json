@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 125,
+  "experience": 2.5,
+  "group": "enderite_piece",
+  "ingredient": {
+    "item": "betteroreprogression:raw_enderite"
+  },
+  "result": {
+    "id": "betteroreprogression:enderite_piece"
+  }
+}

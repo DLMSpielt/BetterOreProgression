@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "betteroreprogression:enderite_piece"
+    },
+    {
+      "item": "betteroreprogression:enderite_piece"
+    },
+    {
+      "item": "betteroreprogression:end_crystal"
+    },
+    {
+      "item": "betteroreprogression:end_crystal"
+    },
+    {
+      "item": "betteroreprogression:end_crystal"
+    },
+    {
+      "item": "betteroreprogression:end_crystal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "betteroreprogression:enderite_ingot"
+  }
+}

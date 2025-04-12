@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 2.5,
+  "group": "enderite_piece",
+  "ingredient": {
+    "item": "betteroreprogression:enderite_ore"
+  },
+  "result": {
+    "id": "betteroreprogression:enderite_piece"
+  }
+}
