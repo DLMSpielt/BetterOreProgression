@@ -37,7 +37,7 @@ public static final Item ENDERITE_INGOT = register("enderite_ingot", Item :: new
 
 
     //Cooper Armor
-    public static final Item COOPER_HELMET = register("cooper_helmet", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.HELMET));
+    public static final Item COOPER_HELMET = register("cooper_helmet", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER,EquipmentType.HELMET));
     public static final Item COOPER_CHESTPLATE = register("cooper_chestplate", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.CHESTPLATE));
     public static final Item COOPER_LEGGINGS = register("cooper_leggings", Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.LEGGINGS));
     public static final Item COOPER_BOOTS = register("cooper_boots",Item::new, new Item.Settings().armor(ModArmorMaterials.COOPER, EquipmentType.BOOTS));

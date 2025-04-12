@@ -1,5 +1,6 @@
 package net.dlmspielt.betteroreprogression;
 
+import net.dlmspielt.betteroreprogression.block.ModBlocks;
 import net.dlmspielt.betteroreprogression.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,7 @@ public class BetterOreProgression implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModBlocks.registerModBlocks();
 	}
+
 }

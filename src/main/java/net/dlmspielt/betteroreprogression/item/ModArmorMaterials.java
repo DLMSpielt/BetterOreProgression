@@ -5,14 +5,11 @@ import net.minecraft.item.equipment.ArmorMaterial;
 import net.minecraft.item.equipment.EquipmentAsset;
 import net.minecraft.item.equipment.EquipmentAssetKeys;
 import net.minecraft.item.equipment.EquipmentType;
-import net.minecraft.recipe.Ingredient;
-import net.minecraft.sound.SoundEvent;
+
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.item.Item;
+
 
 import java.util.Map;
 
@@ -63,7 +60,6 @@ public class ModArmorMaterials {
                 REPAIRS_ENDERITE_ARMOR,
                 ENDERITE_ASSET
         );
-
 
 
     }
