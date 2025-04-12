@@ -1,6 +1,8 @@
 {
-  "replace": false,
   "values": [
-    "betteroreprogression:enderite_ore"
+    "betteroreprogression:enderite_ore",
+    "betteroreprogression:blue_gold_block",
+    "betteroreprogression:raw_enderite_block",
+    "betteroreprogression:enderite_block"
   ]
 }
