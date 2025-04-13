@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "betteroreprogression:enderite_upgrade_smithing_template"
+    },
+    "E": {
+      "item": "minecraft:end_stone"
+    },
+    "S": {
+      "item": "betteroreprogression:end_crystal"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "SES",
+    "SSS"
+  ],
+  "result": {
+    "count": 2,
+    "id": "betteroreprogression:enderite_upgrade_smithing_template"
+  }
+}

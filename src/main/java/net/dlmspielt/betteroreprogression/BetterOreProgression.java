@@ -1,7 +1,7 @@
 package net.dlmspielt.betteroreprogression;
 
 import net.dlmspielt.betteroreprogression.block.ModBlocks;
-import net.dlmspielt.betteroreprogression.item.ModItems;
+import net.dlmspielt.betteroreprogression.item.custom.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

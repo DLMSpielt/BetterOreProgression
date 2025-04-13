@@ -31,6 +31,14 @@ public static final Block RAW_ENDERITE_BLOCK = registerBlockfireproof("raw_ender
     public static final Block BLUE_GOLD_BLOCK = registerBlock("blue_gold_block",
         new Block(AbstractBlock.Settings.create().strength(6.0f,7.0f).requiresTool()));
 
+    //Crystal of End Blocks
+    public static final Block END_CRYSTAL_ORE = registerBlock("end_crystal_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(0,6),
+                    AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)));
+    public static final Block END_CRYSTAL_BLOCK = registerBlock("end_crystal_block",
+            new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -55,9 +63,15 @@ public static final Block RAW_ENDERITE_BLOCK = registerBlockfireproof("raw_ender
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(entries -> {
             entries.add(ModBlocks.ENDERITE_ORE);
-            entries.add(ModBlocks.ENDERITE_BLOCK);
-            entries.add(ModBlocks.RAW_ENDERITE_BLOCK);
-            entries.add(ModBlocks.BLUE_GOLD_BLOCK);
+            entries.add(ModBlocks.END_CRYSTAL_ORE);
+
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModBlocks.BLUE_GOLD_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.ENDERITE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.RAW_ENDERITE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.END_CRYSTAL_BLOCK);
+
         });
     }
 }

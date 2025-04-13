@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "betteroreprogression:item/enderite_shovel"
+  }
+}

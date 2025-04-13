@@ -3,9 +3,38 @@
   "item.betteroreprogression.enderite_piece": "Piece of Enderite",
   "item.betteroreprogression.enderite_ingot": "Enderite Ingot",
   "item.betteroreprogression.raw_enderite": "Raw Enderite",
+  "item.betteroreprogression.blue_gold_ingot": "Blue Gold Ingot",
 
+  "item.betteroreprogression.copper_sword": "Copper Sword",
+  "item.betteroreprogression.copper_pickaxe": "Copper Pickaxe",
+  "item.betteroreprogression.copper_shovel": "Copper Shovel",
+  "item.betteroreprogression.copper_axe": "Copper Axe",
+  "item.betteroreprogression.copper_hoe": "Copper Hoe",
 
+  "item.betteroreprogression.blue_gold_sword": "Blue Gold Sword",
+  "item.betteroreprogression.blue_gold_pickaxe": "Blue Gold Pickaxe",
+  "item.betteroreprogression.blue_gold_shovel": "Blue Gold Shovel",
+  "item.betteroreprogression.blue_gold_axe": "Blue Gold Axe",
+  "item.betteroreprogression.blue_gold_hoe": "Blue Gold Hoe",
 
-  "block.betteroreprogression.enderite_ore": "Enderite Ore"
+  "item.betteroreprogression.enderite_sword": "Enderite Sword",
+  "item.betteroreprogression.enderite_pickaxe": "Enderite Pickaxe",
+  "item.betteroreprogression.enderite_shovel": "Enderite Shovel",
+  "item.betteroreprogression.enderite_axe": "Enderite Axe",
+  "item.betteroreprogression.enderite_hoe": "Enderite Hoe",
+
+  "block.betteroreprogression.enderite_ore": "Enderite Ore",
+  "block.betteroreprogression.enderite_block": "Enderite Block",
+  "block.betteroreprogression.raw_enderite_block": "Raw Enderite Block",
+  "block.betteroreprogression.blue_gold_block": "Blue Gold Block",
+  "block.betteroreprogression.end_crystal_block": "Crystal of End Block",
+  "block.betteroreprogression.end_crystal_ore": "Crystal of End Ore",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.additions_slot_description": "Add Enderite Ingot",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.applies_to": "Netherite Equipment",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.ingredients": "Enderite Ingot",
+  "upgrade.betteroreprogression.enderite_upgrade": "Enderite Upgrade",
+  "item.betteroreprogression.enderite_upgrade_smithing_template": "Enderite Upgrade"
+
 
 }

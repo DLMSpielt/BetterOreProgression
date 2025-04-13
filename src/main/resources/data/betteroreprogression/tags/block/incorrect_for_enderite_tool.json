@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:incorrect_for_netherite_tool"
+  ],
+  "remove": [
+    "#betteroreprogrssion:needs_enderite_tool"
+  ]
+}

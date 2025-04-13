@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "betteroreprogression:end_crystal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "betteroreprogression:end_crystal"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "betteroreprogression:raw_enderite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "betteroreprogression:raw_enderite"
+  }
+}

@@ -1,7 +1,7 @@
 package net.dlmspielt.betteroreprogression.datagen;
 
 import net.dlmspielt.betteroreprogression.block.ModBlocks;
-import net.dlmspielt.betteroreprogression.item.ModItems;
+import net.dlmspielt.betteroreprogression.item.custom.ModItems;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
@@ -28,7 +28,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+        //ore Blocks
         addDrop(ModBlocks.ENDERITE_ORE,oreDrops(ModBlocks.ENDERITE_ORE, ModItems.RAW_ENDERITE));
+        addDrop(ModBlocks.END_CRYSTAL_ORE,multipleOreDrops(ModBlocks.END_CRYSTAL_ORE,ModItems.END_CRYSTAL,1f, 3f));
+       //Blocks
+        addDrop(ModBlocks.BLUE_GOLD_BLOCK);
+        addDrop(ModBlocks.ENDERITE_BLOCK);
+        addDrop(ModBlocks.RAW_ENDERITE_BLOCK);
+        addDrop(ModBlocks.END_CRYSTAL_BLOCK);
+
     }
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {
         RegistryWrapper.Impl<Enchantment> impl = this.registryLookup.getWrapperOrThrow(RegistryKeys.ENCHANTMENT);
