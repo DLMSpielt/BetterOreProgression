@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "betteroreprogression:enderite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "betteroreprogression:enderite_leggings"
+  },
+  "template": {
+    "item": "betteroreprogression:enderite_upgrade_smithing_template"
+  }
+}

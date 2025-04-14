@@ -7,8 +7,14 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.Item;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class ModModelProvider extends FabricModelProvider {
+
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
@@ -53,5 +59,7 @@ itemModelGenerator.register(ModItems.ENDERITE_PICKAXE, Models.HANDHELD);
 itemModelGenerator.register(ModItems.ENDERITE_SHOVEL, Models.HANDHELD);
 itemModelGenerator.register(ModItems.ENDERITE_AXE, Models.HANDHELD);
 itemModelGenerator.register(ModItems.ENDERITE_HOE, Models.HANDHELD);
+
+
     }
 }

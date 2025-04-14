@@ -37,5 +37,19 @@ getOrCreateTagBuilder(ItemTags.HOES)
         .add(ModItems.ENDERITE_HOE);
 getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
         .add(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE);
+getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+        .add(ModItems.COPPER_HELMET)
+        .add(ModItems.COPPER_CHESTPLATE)
+        .add(ModItems.COPPER_LEGGINGS)
+        .add(ModItems.COPPER_BOOTS)
+        .add(ModItems.BLUE_GOLD_HELMET)
+        .add(ModItems.BLUE_GOLD_CHESTPLATE)
+        .add(ModItems.BLUE_GOLD_LEGGINGS)
+        .add(ModItems.BLUE_GOLD_BOOTS)
+        .add(ModItems.ENDERITE_HELMET)
+        .add(ModItems.ENDERITE_CHESTPLATE)
+        .add(ModItems.ENDERITE_LEGGINGS)
+        .add(ModItems.ENDERITE_BOOTS);
+
     }
 }

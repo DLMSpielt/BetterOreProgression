@@ -34,7 +34,20 @@ public class ModItems {
 public static final Item COPPER_HOE = registerItem("copper_hoe",
             new HoeItem(ModToolMaterials.COPPER,new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER,-1.5f,-1.5F))));
-//Blue gold Tools
+//Copper Armor
+public static final Item COPPER_HELMET = registerItem("copper_helmet",
+        new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+    public static final Item COPPER_BOOTS = registerItem("copper_boots",
+            new ArmorItem(ModArmorMaterials.COPPER_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+
+
+
+    //Blue gold Tools
 public static final Item BLUE_GOLD_SWORD = registerItem("blue_gold_sword",
         new SwordItem(ModToolMaterials.BLUE_GOLD,new Item.Settings()
                 .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BLUE_GOLD,3,-2.4F))));
@@ -50,7 +63,19 @@ public static final Item BLUE_GOLD_SWORD = registerItem("blue_gold_sword",
     public static final Item BLUE_GOLD_HOE = registerItem("blue_gold_hoe",
             new HoeItem(ModToolMaterials.BLUE_GOLD,new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BLUE_GOLD,-2.5f,-0.5F))));
-//Enderite Tools
+//Blue Gold Armor
+public static final Item BLUE_GOLD_HELMET = registerItem("blue_gold_helmet",
+        new ArmorItem(ModArmorMaterials.BLUE_GOLD_ARMOR_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(22))));
+    public static final Item BLUE_GOLD_CHESTPLATE = registerItem("blue_gold_chestplate",
+            new ArmorItem(ModArmorMaterials.BLUE_GOLD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(22))));
+    public static final Item BLUE_GOLD_LEGGINGS = registerItem("blue_gold_leggings",
+            new ArmorItem(ModArmorMaterials.BLUE_GOLD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(22))));
+    public static final Item BLUE_GOLD_BOOTS = registerItem("blue_gold_boots",
+            new ArmorItem(ModArmorMaterials.BLUE_GOLD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(22))));
+
+
+
+    //Enderite Tools
 public static final Item ENDERITE_SWORD = registerItem("enderite_sword",
         new SwordItem(ModToolMaterials.ENDERITE,new Item.Settings()
                 .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ENDERITE,3,-2.4F))));
@@ -66,7 +91,20 @@ public static final Item ENDERITE_SWORD = registerItem("enderite_sword",
     public static final Item ENDERITE_HOE = registerItem("enderite_hoe",
             new HoeItem(ModToolMaterials.ENDERITE,new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ENDERITE,-5.0f,0.0F))));
-//Enderite Upgrade
+//Enderite Armor
+    public static final Item ENDERITE_HELMET = registerItem("enderite_helmet",
+        new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,new Item.Settings().fireproof().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+    public static final Item ENDERITE_CHESTPLATE = registerItem("enderite_chestplate",
+        new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,new Item.Settings().fireproof().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+    public static final Item ENDERITE_LEGGINGS = registerItem("enderite_leggings",
+        new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,new Item.Settings().fireproof().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+    public static final Item ENDERITE_BOOTS = registerItem("enderite_boots",
+        new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+
+
+
+
+    //Enderite Upgrade
     public static final Item ENDERITE_UPGRADE_SMITHING_TEMPLATE = registerItem("enderite_upgrade_smithing_template", ModTrimsMaterials.EnderiteUpgrade.createEnderiteUpgrade());
 
     private static Item registerItem(String name, Item item){
@@ -92,6 +130,18 @@ public static final Item ENDERITE_SWORD = registerItem("enderite_sword",
             entries.add(BLUE_GOLD_AXE);
             entries.add(ENDERITE_SWORD);
             entries.add(ENDERITE_AXE);
+            entries.add(ENDERITE_HELMET);
+            entries.add(ENDERITE_CHESTPLATE);
+            entries.add(ENDERITE_LEGGINGS);
+            entries.add(ENDERITE_BOOTS);
+            entries.add(BLUE_GOLD_HELMET);
+            entries.add(BLUE_GOLD_CHESTPLATE);
+            entries.add(BLUE_GOLD_LEGGINGS);
+            entries.add(BLUE_GOLD_BOOTS);
+            entries.add(COPPER_HELMET);
+            entries.add(COPPER_CHESTPLATE);
+            entries.add(COPPER_LEGGINGS);
+            entries.add(COPPER_BOOTS);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries ->{
