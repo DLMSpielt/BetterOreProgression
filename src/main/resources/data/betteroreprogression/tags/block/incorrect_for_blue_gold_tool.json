@@ -1,8 +1,5 @@
 {
   "values": [
-    "#minecraft:incorrect_for_iron_tool"
-  ],
-  "remove": [
-    "#betteroreprogrssion:needs_blue_gold_tool"
+    "#minecraft:needs_diamond_tool"
   ]
 }

@@ -1,5 +1,9 @@
 {
   "values": [
-    "#minecraft:needs_stone_tool"
+    "minecraft:iron_block",
+    "minecraft:raw_iron_block",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore"
+
   ]
 }

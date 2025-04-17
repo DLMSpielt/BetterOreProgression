@@ -33,19 +33,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.ENDERITE_ORE);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.BLUE_GOLD_BLOCK);
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.END_CRYSTAL_ORE);
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.END_CRYSTAL_BLOCK);
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.ENDERITE_BLOCK);
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RAW_ENDERITE_BLOCK);
-
-        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_BLUE_GOLD_TOOL)
-                .addTag(BlockTags.NEEDS_IRON_TOOL);
 
 getOrCreateTagBuilder(ModTags.Blocks.NEEDS_ENDERITE_TOOL)
         .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
