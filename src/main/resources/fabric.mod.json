@@ -11,7 +11,7 @@
 		"sources": "https://github.com/DLMSpielt/BetterOreProgression"
 	},
 	"license": "MIT",
-	"icon": "assets/betteroreprogression/icon.png",
+	"icon": "assets/betteroreprogression/icon.jpg",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
