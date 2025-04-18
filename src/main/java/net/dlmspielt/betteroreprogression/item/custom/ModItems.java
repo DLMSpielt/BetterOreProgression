@@ -77,19 +77,19 @@ public static final Item BLUE_GOLD_HELMET = registerItem("blue_gold_helmet",
 
     //Enderite Tools
 public static final Item ENDERITE_SWORD = registerItem("enderite_sword",
-        new SwordItem(ModToolMaterials.ENDERITE,new Item.Settings()
+        new SwordItem(ModToolMaterials.ENDERITE,new Item.Settings().fireproof()
                 .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ENDERITE,3,-2.4F))));
     public static final Item ENDERITE_PICKAXE = registerItem("enderite_pickaxe",
-            new PickaxeItem(ModToolMaterials.ENDERITE,new Item.Settings()
+            new PickaxeItem(ModToolMaterials.ENDERITE,new Item.Settings().fireproof()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ENDERITE,1f,-2.8F))));
     public static final Item ENDERITE_SHOVEL = registerItem("enderite_shovel",
-            new ShovelItem(ModToolMaterials.ENDERITE,new Item.Settings()
+            new ShovelItem(ModToolMaterials.ENDERITE,new Item.Settings().fireproof()
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ENDERITE,1.5f,-3.0F))));
     public static final Item ENDERITE_AXE = registerItem("enderite_axe",
-            new AxeItem(ModToolMaterials.ENDERITE,new Item.Settings()
+            new AxeItem(ModToolMaterials.ENDERITE,new Item.Settings().fireproof()
                     .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ENDERITE,6f,-2.9F))));
     public static final Item ENDERITE_HOE = registerItem("enderite_hoe",
-            new HoeItem(ModToolMaterials.ENDERITE,new Item.Settings()
+            new HoeItem(ModToolMaterials.ENDERITE,new Item.Settings().fireproof()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ENDERITE,-5.0f,0.0F))));
 //Enderite Armor
     public static final Item ENDERITE_HELMET = registerItem("enderite_helmet",

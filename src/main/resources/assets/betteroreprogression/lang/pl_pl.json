@@ -1,0 +1,56 @@
+{
+  "item.betteroreprogression.end_crystal": "Enderowy-kryształ",
+  "item.betteroreprogression.enderite_piece": "Enderytowy kawałek",
+  "item.betteroreprogression.enderite_ingot": "Sztabka Enderytu",
+  "item.betteroreprogression.raw_enderite": "Ruda Enderytu",
+  "item.betteroreprogression.blue_gold_ingot": "Sztabka niebieskiego-złota",
+
+  "item.betteroreprogression.copper_sword": "Miedziany miecz",
+  "item.betteroreprogression.copper_pickaxe": "Miedziany kilof",
+  "item.betteroreprogression.copper_shovel": "Miedziana łopata",
+  "item.betteroreprogression.copper_axe": "Miedziana siekiera",
+  "item.betteroreprogression.copper_hoe": "Miedziana młotyka",
+
+  "item.betteroreprogression.copper_helmet": "Miedziany hełm",
+  "item.betteroreprogression.copper_chestplate": "Miedziany napierśnik",
+  "item.betteroreprogression.copper_leggings": "Miedziane nogawice",
+  "item.betteroreprogression.copper_boots": "Miedziane buty",
+
+
+  "item.betteroreprogression.blue_gold_sword": "Niebiesko-złoty miecz",
+  "item.betteroreprogression.blue_gold_pickaxe": "Niebiesko-złoty kilof",
+  "item.betteroreprogression.blue_gold_shovel": "Niebiesko-złota łopata",
+  "item.betteroreprogression.blue_gold_axe": "Niebiesko-złota siekiera",
+  "item.betteroreprogression.blue_gold_hoe": "Niebiesko-złota młotyka",
+
+  "item.betteroreprogression.blue_gold_helmet": "Niebiesko-złoty miecz",
+  "item.betteroreprogression.blue_gold_chestplate": "Niebiesko-złoty napierśnik",
+  "item.betteroreprogression.blue_gold_leggings": "Niebiesko-złote nogawice",
+  "item.betteroreprogression.blue_gold_boots": "Niebiesko-złote buty",
+
+  "item.betteroreprogression.enderite_sword": "Enderytowy miecz",
+  "item.betteroreprogression.enderite_pickaxe": "Enderytowy kilof",
+  "item.betteroreprogression.enderite_shovel": "Enderytowa łopata",
+  "item.betteroreprogression.enderite_axe": "Enderytowa siekiera",
+  "item.betteroreprogression.enderite_hoe": "Enderytowa młotyka",
+
+  "item.betteroreprogression.enderite_helmet": "Enderytowy hełm",
+  "item.betteroreprogression.enderite_chestplate": "Enderytowy napierśnik",
+  "item.betteroreprogression.enderite_leggings": "Enderytowe nogawice",
+  "item.betteroreprogression.enderite_boots": "Enderytowe buty",
+
+  "block.betteroreprogression.enderite_ore": "Złoże Enderytu",
+  "block.betteroreprogression.enderite_block": "Enderytowy Block",
+  "block.betteroreprogression.raw_enderite_block": "Block Rudy Enderytu",
+  "block.betteroreprogression.blue_gold_block": "Niebiesko-złoty Block",
+  "block.betteroreprogression.end_crystal_block": "Enderowy-krystałowy Block",
+  "block.betteroreprogression.end_crystal_ore": "Złoże enderowego-krystału",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.additions_slot_description": "Dotaj Stabke Enderytu",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.applies_to": "Netherite'owe wyposażenie",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.base_slot_description": "Dotaj netherite'owa zbroje, broń lub narzędzie",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.ingredients": "Sztabka Enderytu",
+  "upgrade.betteroreprogression.enderite_upgrade": "Szablon kowalski",
+  "item.betteroreprogression.enderite_upgrade_smithing_template": "Enderytowe ulepszenie"
+
+
+}

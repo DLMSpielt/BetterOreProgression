@@ -1,0 +1,56 @@
+{
+  "item.betteroreprogression.end_crystal": "End Krystall",
+  "item.betteroreprogression.enderite_piece": "Enderite Stück",
+  "item.betteroreprogression.enderite_ingot": "Enderitebarren",
+  "item.betteroreprogression.raw_enderite": "Roh Enderite",
+  "item.betteroreprogression.blue_gold_ingot": "Blau goldbarren",
+
+  "item.betteroreprogression.copper_sword": "Kupferschwert",
+  "item.betteroreprogression.copper_pickaxe": "Kupferspitzhacke",
+  "item.betteroreprogression.copper_shovel": "Kupferschaufel",
+  "item.betteroreprogression.copper_axe": "Kupferaxt",
+  "item.betteroreprogression.copper_hoe": "Kupferhacke",
+
+  "item.betteroreprogression.copper_helmet": "Kupferhelm",
+  "item.betteroreprogression.copper_chestplate": "Kupferharnisch",
+  "item.betteroreprogression.copper_leggings": "Kupferbeinschutz",
+  "item.betteroreprogression.copper_boots": "Kupferstiefel",
+
+
+  "item.betteroreprogression.blue_gold_sword": "Blau Goldschwert",
+  "item.betteroreprogression.blue_gold_pickaxe": "Blue Goldspitzhacke",
+  "item.betteroreprogression.blue_gold_shovel": "Blue Goldschaufel",
+  "item.betteroreprogression.blue_gold_axe": "Blue Goldaxt",
+  "item.betteroreprogression.blue_gold_hoe": "Blue Goldhacke",
+
+  "item.betteroreprogression.blue_gold_helmet": "Blue Goldhelm",
+  "item.betteroreprogression.blue_gold_chestplate": "Blue Goldharnisch",
+  "item.betteroreprogression.blue_gold_leggings": "Blue Goldbeinschutz",
+  "item.betteroreprogression.blue_gold_boots": "Blue Goldstiefel",
+
+  "item.betteroreprogression.enderite_sword": "Enderiteschwert",
+  "item.betteroreprogression.enderite_pickaxe": "Enderitespitzhacke",
+  "item.betteroreprogression.enderite_shovel": "Enderiteschaufel",
+  "item.betteroreprogression.enderite_axe": "Enderiteaxt",
+  "item.betteroreprogression.enderite_hoe": "Enderitehacke",
+
+  "item.betteroreprogression.enderite_helmet": "Enderitehelm",
+  "item.betteroreprogression.enderite_chestplate": "Enderiteharnisch",
+  "item.betteroreprogression.enderite_leggings": "Enderitebeinschutz",
+  "item.betteroreprogression.enderite_boots": "Enderitestiefel",
+
+  "block.betteroreprogression.enderite_ore": "Enderite Erz",
+  "block.betteroreprogression.enderite_block": "Enderite Block",
+  "block.betteroreprogression.raw_enderite_block": "Roh Enderite Block",
+  "block.betteroreprogression.blue_gold_block": "Blau Gold Block",
+  "block.betteroreprogression.end_crystal_block": "End Krystall Block",
+  "block.betteroreprogression.end_crystal_ore": "End Krystallerz",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.additions_slot_description": "Enderitebarren hinzufügen",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.applies_to": "Netherite Ausrüstung",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.base_slot_description": "Netheriterüstung, Waffen oder Werkzeug hinzufügen",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.ingredients": "Enderitebarren",
+  "upgrade.betteroreprogression.enderite_upgrade": "Schmiedevorlage",
+  "item.betteroreprogression.enderite_upgrade_smithing_template": "Enderite Upgrade"
+
+
+}

@@ -1,6 +1,6 @@
 {
-  "item.betteroreprogression.end_crystal": "Crystal of End",
-  "item.betteroreprogression.enderite_piece": "Piece of Enderite",
+  "item.betteroreprogression.end_crystal": "End Crystal",
+  "item.betteroreprogression.enderite_piece": "Enderite Piece",
   "item.betteroreprogression.enderite_ingot": "Enderite Ingot",
   "item.betteroreprogression.raw_enderite": "Raw Enderite",
   "item.betteroreprogression.blue_gold_ingot": "Blue Gold Ingot",
@@ -43,13 +43,13 @@
   "block.betteroreprogression.enderite_block": "Enderite Block",
   "block.betteroreprogression.raw_enderite_block": "Raw Enderite Block",
   "block.betteroreprogression.blue_gold_block": "Blue Gold Block",
-  "block.betteroreprogression.end_crystal_block": "Crystal of End Block",
-  "block.betteroreprogression.end_crystal_ore": "Crystal of End Ore",
+  "block.betteroreprogression.end_crystal_block": "End Crystal Block",
+  "block.betteroreprogression.end_crystal_ore": "End Crystal Ore",
   "item.betteroreprogression.smithing_template.enderite_upgrade.additions_slot_description": "Add Enderite Ingot",
   "item.betteroreprogression.smithing_template.enderite_upgrade.applies_to": "Netherite Equipment",
-  "item.betteroreprogression.smithing_template.enderite_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.betteroreprogression.smithing_template.enderite_upgrade.base_slot_description": "Add netherite armor, weapon or tool",
   "item.betteroreprogression.smithing_template.enderite_upgrade.ingredients": "Enderite Ingot",
-  "upgrade.betteroreprogression.enderite_upgrade": "Enderite Upgrade",
+  "upgrade.betteroreprogression.enderite_upgrade": "Smithing Template",
   "item.betteroreprogression.enderite_upgrade_smithing_template": "Enderite Upgrade"
 
 

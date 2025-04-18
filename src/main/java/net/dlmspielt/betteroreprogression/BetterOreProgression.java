@@ -2,6 +2,8 @@ package net.dlmspielt.betteroreprogression;
 
 import net.dlmspielt.betteroreprogression.block.ModBlocks;
 import net.dlmspielt.betteroreprogression.item.custom.ModItems;
+import net.dlmspielt.betteroreprogression.util.ModLootTablesModifiers;
+import net.dlmspielt.betteroreprogression.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,5 +21,7 @@ public class BetterOreProgression implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGen();
+		ModLootTablesModifiers.modifyLootTables();
 	}
 }
